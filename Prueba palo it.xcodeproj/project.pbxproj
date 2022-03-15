@@ -11,6 +11,7 @@
 		141CF87B27E028AC0071D0A9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CF87A27E028AC0071D0A9 /* MainViewModel.swift */; };
 		141CF87E27E0329C0071D0A9 /* PostDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141CF87D27E0329C0071D0A9 /* PostDetail.storyboard */; };
 		141CF88227E0355D0071D0A9 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CF88127E0355D0071D0A9 /* PostDetailViewController.swift */; };
+		141CF88A27E03E980071D0A9 /* Prueba_palo_itTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CF88927E03E980071D0A9 /* Prueba_palo_itTests.swift */; };
 		14CF8EA527DFD6CA00A5DA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF8EA427DFD6CA00A5DA73 /* AppDelegate.swift */; };
 		14CF8EA727DFD6CA00A5DA73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF8EA627DFD6CA00A5DA73 /* SceneDelegate.swift */; };
 		14CF8EA927DFD6CA00A5DA73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF8EA827DFD6CA00A5DA73 /* ViewController.swift */; };
@@ -22,12 +23,26 @@
 		14CF8EC627E0163100A5DA73 /* PostsBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF8EC527E0163100A5DA73 /* PostsBusiness.swift */; };
 		14CF8EC827E0168600A5DA73 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF8EC727E0168600A5DA73 /* Post.swift */; };
 		14CF8ECA27E0170B00A5DA73 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF8EC927E0170B00A5DA73 /* Comment.swift */; };
+		6F00ECAA417FDEA281722308 /* Pods_Prueba_palo_itTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71D7197282E72C129A72B8 /* Pods_Prueba_palo_itTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		141CF88B27E03E980071D0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CF8E9927DFD6CA00A5DA73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CF8EA027DFD6CA00A5DA73;
+			remoteInfo = "Prueba palo it";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0E24DAB5A8B4C82DFE55272E /* Pods-Prueba palo itTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba palo itTests.release.xcconfig"; path = "Target Support Files/Pods-Prueba palo itTests/Pods-Prueba palo itTests.release.xcconfig"; sourceTree = "<group>"; };
 		141CF87A27E028AC0071D0A9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		141CF87D27E0329C0071D0A9 /* PostDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostDetail.storyboard; sourceTree = "<group>"; };
 		141CF88127E0355D0071D0A9 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		141CF88727E03E980071D0A9 /* Prueba palo itTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba palo itTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141CF88927E03E980071D0A9 /* Prueba_palo_itTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_palo_itTests.swift; sourceTree = "<group>"; };
 		14CF8EA127DFD6CA00A5DA73 /* Prueba palo it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prueba palo it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CF8EA427DFD6CA00A5DA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14CF8EA627DFD6CA00A5DA73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +57,21 @@
 		14CF8EC727E0168600A5DA73 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		14CF8EC927E0170B00A5DA73 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		2E6D8EE6E53D098699CB72EF /* Pods-Prueba palo it.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba palo it.debug.xcconfig"; path = "Target Support Files/Pods-Prueba palo it/Pods-Prueba palo it.debug.xcconfig"; sourceTree = "<group>"; };
+		3D71D7197282E72C129A72B8 /* Pods_Prueba_palo_itTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_palo_itTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8319DEF7203A7A6DB2F9F2D7 /* Pods-Prueba palo it.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba palo it.release.xcconfig"; path = "Target Support Files/Pods-Prueba palo it/Pods-Prueba palo it.release.xcconfig"; sourceTree = "<group>"; };
+		9FF9B04589FC64A5C409074B /* Pods-Prueba palo itTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba palo itTests.debug.xcconfig"; path = "Target Support Files/Pods-Prueba palo itTests/Pods-Prueba palo itTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8F4970DA6EEE14A59C34B91 /* Pods_Prueba_palo_it.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_palo_it.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		141CF88427E03E980071D0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F00ECAA417FDEA281722308 /* Pods_Prueba_palo_itTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14CF8E9E27DFD6CA00A5DA73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,10 +92,19 @@
 			path = PostDetails;
 			sourceTree = "<group>";
 		};
+		141CF88827E03E980071D0A9 /* Prueba palo itTests */ = {
+			isa = PBXGroup;
+			children = (
+				141CF88927E03E980071D0A9 /* Prueba_palo_itTests.swift */,
+			);
+			path = "Prueba palo itTests";
+			sourceTree = "<group>";
+		};
 		14CF8E9827DFD6CA00A5DA73 = {
 			isa = PBXGroup;
 			children = (
 				14CF8EA327DFD6CA00A5DA73 /* Prueba palo it */,
+				141CF88827E03E980071D0A9 /* Prueba palo itTests */,
 				14CF8EA227DFD6CA00A5DA73 /* Products */,
 				2EEFF413CC53558037757004 /* Pods */,
 				B0C64776025156393B26BB99 /* Frameworks */,
@@ -81,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				14CF8EA127DFD6CA00A5DA73 /* Prueba palo it.app */,
+				141CF88727E03E980071D0A9 /* Prueba palo itTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +162,7 @@
 		14CF8EBD27E00D8D00A5DA73 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				14CF8EC027E00E2700A5DA73 /* CustomError.swift */,
 				14CF8EB927DFFC1D00A5DA73 /* NetworkManager.swift */,
 			);
 			path = Network;
@@ -138,7 +174,6 @@
 				14CF8EAD27DFD6D600A5DA73 /* Assets.xcassets */,
 				14CF8EA427DFD6CA00A5DA73 /* AppDelegate.swift */,
 				14CF8EA627DFD6CA00A5DA73 /* SceneDelegate.swift */,
-				14CF8EC027E00E2700A5DA73 /* CustomError.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -167,6 +202,8 @@
 			children = (
 				2E6D8EE6E53D098699CB72EF /* Pods-Prueba palo it.debug.xcconfig */,
 				8319DEF7203A7A6DB2F9F2D7 /* Pods-Prueba palo it.release.xcconfig */,
+				9FF9B04589FC64A5C409074B /* Pods-Prueba palo itTests.debug.xcconfig */,
+				0E24DAB5A8B4C82DFE55272E /* Pods-Prueba palo itTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -175,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				B8F4970DA6EEE14A59C34B91 /* Pods_Prueba_palo_it.framework */,
+				3D71D7197282E72C129A72B8 /* Pods_Prueba_palo_itTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,6 +220,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		141CF88627E03E980071D0A9 /* Prueba palo itTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141CF88D27E03E980071D0A9 /* Build configuration list for PBXNativeTarget "Prueba palo itTests" */;
+			buildPhases = (
+				7665D99BF0AEDC6A9E31750C /* [CP] Check Pods Manifest.lock */,
+				141CF88327E03E980071D0A9 /* Sources */,
+				141CF88427E03E980071D0A9 /* Frameworks */,
+				141CF88527E03E980071D0A9 /* Resources */,
+				56C712A4DC4083A68FD305D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141CF88C27E03E980071D0A9 /* PBXTargetDependency */,
+			);
+			name = "Prueba palo itTests";
+			productName = "Prueba palo itTests";
+			productReference = 141CF88727E03E980071D0A9 /* Prueba palo itTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		14CF8EA027DFD6CA00A5DA73 /* Prueba palo it */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14CF8EB527DFD6D600A5DA73 /* Build configuration list for PBXNativeTarget "Prueba palo it" */;
@@ -211,6 +269,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					141CF88627E03E980071D0A9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 14CF8EA027DFD6CA00A5DA73;
+					};
 					14CF8EA027DFD6CA00A5DA73 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -230,11 +292,19 @@
 			projectRoot = "";
 			targets = (
 				14CF8EA027DFD6CA00A5DA73 /* Prueba palo it */,
+				141CF88627E03E980071D0A9 /* Prueba palo itTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		141CF88527E03E980071D0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14CF8E9F27DFD6CA00A5DA73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +319,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		56C712A4DC4083A68FD305D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba palo itTests/Pods-Prueba palo itTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba palo itTests/Pods-Prueba palo itTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prueba palo itTests/Pods-Prueba palo itTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7665D99BF0AEDC6A9E31750C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prueba palo itTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		811D9ADB3ABCCE1D3C454E12 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +400,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		141CF88327E03E980071D0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141CF88A27E03E980071D0A9 /* Prueba_palo_itTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14CF8E9D27DFD6CA00A5DA73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,6 +426,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141CF88C27E03E980071D0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CF8EA027DFD6CA00A5DA73 /* Prueba palo it */;
+			targetProxy = 141CF88B27E03E980071D0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		14CF8EAA27DFD6CA00A5DA73 /* Main.storyboard */ = {
@@ -330,6 +455,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		141CF88E27E03E980071D0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF9B04589FC64A5C409074B /* Pods-Prueba palo itTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC6543VJ6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prueba.Prueba-palo-itTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prueba palo it.app/Prueba palo it";
+			};
+			name = Debug;
+		};
+		141CF88F27E03E980071D0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E24DAB5A8B4C82DFE55272E /* Pods-Prueba palo itTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC6543VJ6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prueba.Prueba-palo-itTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prueba palo it.app/Prueba palo it";
+			};
+			name = Release;
+		};
 		14CF8EB327DFD6D600A5DA73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -507,6 +670,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		141CF88D27E03E980071D0A9 /* Build configuration list for PBXNativeTarget "Prueba palo itTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141CF88E27E03E980071D0A9 /* Debug */,
+				141CF88F27E03E980071D0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		14CF8E9C27DFD6CA00A5DA73 /* Build configuration list for PBXProject "Prueba palo it" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
