@@ -1,0 +1,6 @@
+framework module Pods_Prueba_palo_it {
+  umbrella header "Pods-Prueba palo it-umbrella.h"
+
+  export *
+  module * { export * }
+}
