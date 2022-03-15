@@ -7,6 +7,7 @@ target 'Prueba palo it' do
   pod 'PromiseKit', '~> 6.8'
   pod 'Alamofire', '~> 5.2'
   pod 'RxSwift', '~> 5'
+  pod 'Toast-Swift', '~> 5.0.1'
 
   # Pods for Prueba palo it
 

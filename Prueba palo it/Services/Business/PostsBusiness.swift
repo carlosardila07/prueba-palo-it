@@ -13,7 +13,7 @@ struct PostsBusiness {
         return NetworkManager.shared.arrayRequest("posts", method: .get)
     }
     
-    func getComments(postId: String) -> Promise<[Comment]> {
+    func getComments(postId: Int) -> Promise<[Comment]> {
         return NetworkManager.shared.arrayRequest("comments?postId=\(postId)", method: .get)
     }
 }

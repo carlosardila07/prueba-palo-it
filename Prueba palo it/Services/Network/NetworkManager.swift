@@ -36,6 +36,3 @@ struct NetworkManager {
         }
     }
 }
-extension Encodable {
-    func toJSONData() -> Data? { try? JSONEncoder().encode(self) }
-}
